@@ -1,0 +1,58 @@
+> a<-read.csv('/Users/RekaFujii4/Desktop/STAT 5900 Observational Studies/Final project/legacies.csv')
+> summary(a)
+     UnitID        Institution_Name     SchoolYear   Fiscal_Year  
+ Min.   :130794   Length   :255     Length   :255   Min.   :2006  
+ 1st Qu.:147767   N.unique : 17     N.unique : 23   1st Qu.:2009  
+ Median :168148   N.blank  :  0     N.blank  :  0   Median :2013  
+ Mean   :172544   Min.nchar:  4     Min.nchar:  7   Mean   :2013  
+ 3rd Qu.:190415   Max.nchar: 15     Max.nchar:  9   3rd Qu.:2017  
+ Max.   :221999                                     Max.   :2020  
+                                                                  
+   SAT_Verbal       SAT_Math      tuitioncost      totalclass  
+ Min.   :600.0   Min.   :590.0   Min.   :30794   Min.   : 882  
+ 1st Qu.:650.0   1st Qu.:670.0   1st Qu.:37950   1st Qu.:1387  
+ Median :670.0   Median :690.0   Median :43705   Median :1572  
+ Mean   :669.8   Mean   :688.2   Mean   :44069   Mean   :1668  
+ 3rd Qu.:695.0   3rd Qu.:710.0   3rd Qu.:50078   3rd Qu.:1731  
+ Max.   :730.0   Max.   :770.0   Max.   :61788   Max.   :3349  
+                                 NAs    :4       NAs    :1     
+ American.Indian.or.Alaska.Native.total..EF2018A..Full.time.students..Undergraduate..Degree.certificate.seeking..First.time.
+ Min.   :  0.00                                                                                                             
+ 1st Qu.:  2.00                                                                                                             
+ Median :  5.00                                                                                                             
+ Mean   : 24.51                                                                                                             
+ 3rd Qu.: 13.00                                                                                                             
+ Max.   :179.00                                                                                                             
+ NAs    :1                                                                                                                  
+ Black.or.African.American.total..EF2018A..Full.time.students..Undergraduate..Degree.certificate.seeking..First.time.
+ Min.   : 35.0                                                                                                       
+ 1st Qu.: 79.0                                                                                                       
+ Median :101.5                                                                                                       
+ Mean   :109.7                                                                                                       
+ 3rd Qu.:131.2                                                                                                       
+ Max.   :268.0                                                                                                       
+ NAs    :1                                                                                                           
+ Hispanic.total..EF2018A..Full.time.students..Undergraduate..Degree.certificate.seeking..First.time.
+ Min.   :  0.0                                                                                      
+ 1st Qu.: 81.0                                                                                      
+ Median :135.0                                                                                      
+ Mean   :135.6                                                                                      
+ 3rd Qu.:184.0                                                                                      
+ Max.   :505.0                                                                                      
+ NAs    :1                                                                                          
+ Native.Hawaiian.or.Other.Pacific.Islander.total..EF2018A..Full.time.students..Undergraduate..Degree.certificate.seeking..First.time.
+ Min.   :0.000                                                                                                                       
+ 1st Qu.:0.000                                                                                                                       
+ Median :1.000                                                                                                                       
+ Mean   :1.318                                                                                                                       
+ 3rd Qu.:2.000                                                                                                                       
+ Max.   :9.000                                                                                                                       
+ NAs    :85                                                                                                                          
+  sec.Pell_PCT     URM_Total        URM_PCT      
+ Min.   : 0.00   Min.   :  0.0   Min.   :0.0000  
+ 1st Qu.:10.00   1st Qu.:201.0   1st Qu.:0.1291  
+ Median :13.00   Median :253.0   Median :0.1581  
+ Mean   :11.99   Mean   :269.7   Mean   :0.1610  
+ 3rd Qu.:15.00   3rd Qu.:317.5   3rd Qu.:0.1904  
+ Max.   :23.00   Max.   :781.0   Max.   :0.2979  
+ NAs    :50      
